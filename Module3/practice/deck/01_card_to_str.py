@@ -6,7 +6,7 @@ class Card:
 
     def to_str(self):
         # TODO-1: метод возвращает строковое представление карты в виде: 10♥ и A♦
-        ...
+        return f"{self.value}, {self.suit}"
 
 
 # Создадим несколько карт
